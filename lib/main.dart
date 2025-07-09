@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/utils/colors.dart';
+import 'package:whatsapp_clone/common/utils/colors.dart';
 import 'package:whatsapp_clone/responsive/responsive_layout.dart';
 import 'package:whatsapp_clone/screens/mobile_screen_layout.dart';
 import 'package:whatsapp_clone/screens/web_screen_layout.dart';
@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: backgroundColor,
-      ),
+      theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: backgroundDark),
       title: 'Whatsapp UI',
       home: const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),

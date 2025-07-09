@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/utils/info.dart';
+import 'package:whatsapp_clone/common/utils/info.dart';
 import 'package:whatsapp_clone/widgets/message_card.dart';
 
 class ChatList extends StatelessWidget {
